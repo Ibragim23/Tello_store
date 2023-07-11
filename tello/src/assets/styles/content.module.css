@@ -1,0 +1,1035 @@
+ 
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/Euclid Circular A SemiBold.ttf');
+} 
+
+@font-face {
+    font-family: 'Euclid Circular A Light';
+    src: url('../fonts/Euclid Circular A Light.ttf');
+}
+
+
+.carousel {
+  position: absolute;
+  height: 652px;
+  width: 97.9%;
+  top: 129px;
+  left: 0px;
+  right: 0;
+}
+
+
+ .container {
+display: none;
+}
+
+.imagePhones {
+  position: absolute;
+width: 463px;
+height: 437px;
+left: 803px;
+top: 157px;
+}
+
+ .buy_sell {
+  position: absolute;
+  top: 247px;
+  left: 75px;
+  width: 445px;
+height: 128px;
+
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+color: #000000;
+}
+
+.text {
+  position: absolute;
+  top: 399px;
+  left: 75px;
+  height: 48px;
+width: 484px;
+
+font-family: 'Euclid Circular A Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4F4F4F;
+
+}
+
+.allproducts {
+  display: flex;
+  flex-direction: row;
+}
+
+.best_selling {
+  display: flex;
+  flex-direction: row;
+}
+
+    .best_selling p {
+      position: absolute;
+      width: 335px;
+      height: 28px;
+      left: 75px;
+      top: 814px;
+      font-family: 'Euclid Circular A';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #333333;
+        }
+        
+      
+/* commerce prosucts */
+
+.products_list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.card__list {
+  position: absolute;
+  top: 874px;
+  left: 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.products_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  align-content: center;
+  gap: 5px;
+}
+
+
+
+.cards {
+  
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+  align-items:center;
+  gap:2px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(164, 164, 164, 0.16);
+  border-radius: 4px;
+  height: 386px;
+  width: 286px;
+  border-radius: 4px;
+}
+
+ .cards > .card__image {
+    display: block;
+    height: 210px;
+    width: 183px;
+    border-radius: 0px;
+  } 
+  
+  .cards > .card__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    transition: 0.2s;
+  }
+  
+ 
+  .cards > .card__bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .cards > .card__prices {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 350px;
+    z-index: 111111;
+    left: 8.74%;
+    right: 80.77%;
+    top: 88.08%;
+    bottom: 6.74%;
+  }
+  
+  .cards > .card__prices > .card__price_one {
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+  }
+
+   .card__price_product {
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  
+ 
+
+  .card__title {
+font-family: 'Euclid Circular A';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+color: #333333;
+  }
+
+
+        .show_more {
+          position: absolute;
+          width: 155px;
+          height: 16px;
+          left: 1167px;
+          top: 800px;
+          font-family: 'Euclid Circular A';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 16px;
+          color: #333333;
+          background:none;
+        }
+        
+        .show_more img {
+            margin-left: 17.5px;
+        }
+
+        .new_products p {
+          position: absolute;
+          width: 296px;
+          height: 28px;
+          left: 75px;
+          top: 1308px;
+          font-family: 'Euclid Circular A';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 28px;
+          color: #333333;
+          z-index: 22222;
+        }
+
+        .card_new_product {
+          display: flex;
+          flex-direction: row; /* Размещаем элементы в колонку */
+          position: absolute;
+          left: 75px;
+          top: 1368px;
+          z-index: 2222;
+          gap: 24px;
+          justify-content: center;
+          align-items:center;
+          align-content:center;
+        }
+
+
+        .show_more_np {
+background:none;
+position: absolute;
+width: 155px;
+height: 16px;
+left: 1167px;
+top: 1300px;
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #333333;
+        } 
+        
+        .show_more_np  img {
+          margin-left: 17.5px;
+      }
+
+      .jumbotron {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        gap: 32px;
+        height: 280px;
+width: 592px;
+left: 76px;
+top: 1818px;
+border-radius: 8px;
+      }
+
+
+      .new_accessories p {
+        position: absolute;
+        width: 224px;
+        height: 28px;
+        left: 76px;
+        top: 2170px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #333333;
+        z-index: 2222;
+      }
+
+      .card_new_accessories {
+        position: absolute;
+        height: 386px;
+        width: 286px;
+        left: 76px;
+        top: 2230px;
+        z-index: 3333;
+        display: flex;
+        flex-direction: row;
+        align-content:center;
+        align-items:center;
+        gap: 24px;
+      }
+
+      .show_more_na {
+        background:none;
+        position: absolute;
+        width: 155px;
+        height: 16px;
+        left: 1167px;
+        top: 2170px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333;
+      }
+
+      .show_more_na  img {
+        margin-left: 17.5px;
+    }
+
+    .productsJumbotron {
+      position: absolute;
+      top: 2722px;
+      left: 74px;
+    }
+
+    .telefon {
+      background-image: url('../images/telefon/Gradient telefon.png');
+      background-repeat:no-repeat;
+      position: absolute;
+      width: 592px;
+      height: 728px;
+      background-color: #E4E9F2;
+      border-radius: 8px;
+
+    }
+
+    .telefon h3 {
+      position: absolute;
+      width: 89px;
+      height: 32px;
+      left: 40px;
+      top: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #303030;
+    }
+
+    .telefon p {
+      position: absolute;
+      width: 123px;
+      height: 54px;
+      left: 40px;
+      top: 88px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .telefon a {
+      position: absolute;
+      width: 200px;
+      height: 25px;
+      left: 40px;
+      top: 112px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .telefon a img {
+      margin-left: 10px;
+    }
+
+    .mobile {
+      position: absolute;
+      border-radius: 0px 0px 4.43243px 0px;
+      height: 444px;
+width: 593px;
+left: 0px;
+top: 284px;
+    } 
+
+    .smart_watch {
+        background-image: url('../images/watch/Gradient_watch.png');
+        position: absolute;
+        background-color: #F2F2F2;
+        height: 356px;
+        width: 592px;
+        left: 625px;
+        border-radius: 8px;
+
+    }
+
+    .smart_watch h3 {
+      position: absolute;
+      width: 189px;
+      height: 32px;
+      left: 40px;
+      top: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #303030;
+    }
+
+    .smart_watch p {
+      position: absolute;
+      width: 123px;
+      height: 54px;
+      left: 40px;
+      top: 88px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .smart_watch a {
+      position: absolute;
+      width: 200px;
+      height: 25px;
+      left: 40px;
+      top: 112px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .smart_watch a img {
+      margin-left: 10px;
+    }
+
+    .watch {
+      position: absolute;
+      height: 290px;
+      width: 256px;
+      left: 311px;
+      top: 65px;
+      border-radius: 8px;
+
+    }
+
+    .aksesuar {
+      position: absolute;
+      width: 592px;
+      height: 356px;
+      left: 625px;
+      top: 372px;
+      background: #F2F2F2;
+      border-radius: 8px;
+    }
+
+    .aksesuar h3 {
+      position: absolute;
+      width: 189px;
+      height: 32px;
+      left: 40px;
+      top: 40px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: #303030;
+    }
+
+    .aksesuar p {
+      position: absolute;
+      width: 123px;
+      height: 54px;
+      left: 40px;
+      top: 88px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .aksesuar a {
+      position: absolute;
+      width: 200px;
+      height: 25px;
+      left: 40px;
+      top: 112px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .aksesuar a img {
+      margin-left: 10px;
+    }
+
+    .aksesuar_group {
+      position: absolute;
+      height: 155.68px;
+      left: 237px;
+      top: 75px;
+      border-radius: 4.43243px;
+      height: 281px;
+      width: 333px;
+      border-radius: 8px;
+    }
+
+
+.features > img {
+  position: absolute;
+  top: 3586px;
+  left: 107px;
+  z-index: 55555;
+}
+
+.features > img:first-of-type {
+  display: none;
+}
+
+
+.carousel_brands {
+position: absolute;
+padding-left: 75px;
+padding-top: 48px;
+width: 100%;
+height: 216px;
+left: 0px;
+top: 3942px;
+margin: 0%;
+right: 0%;
+background: #F5F5F7;
+}
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+
+    .carousel {
+      display: none;
+    }
+
+    .carousel_brands {
+      display: none;
+    }
+
+   
+
+  .container {
+      background-image:  url("../images//background_content.png")  ;
+      width: 360px;
+      height: 390px;
+      background-size: 120% 70%;
+      background-position-y: 7rem; 
+      display: block;      
+    }
+
+
+    .imagePhones {
+        position: absolute;
+        left: 61px;
+        right: 68px;
+        top: 207px;
+        border-radius: 0px;
+        height: 216px;
+        width: 231px;
+    }
+
+  .buy_sell {
+        position: absolute;
+        width: 222px;
+        height: 64px;
+        left: 69px;
+        top: 503px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+    }
+
+.text {
+position: absolute;
+width: 328px;
+height: 72px;
+left: 16px;
+top: 583px;
+font-family: 'Euclid Circular A Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #4F4F4F;
+    }
+
+.allproducts {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__list {
+  position: absolute;
+  height: 299px;
+  width: 191px;
+  left: 16px;
+  top: 751px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  width: 360px;
+  height: 310px;
+  overflow-x: auto;
+  padding: 0px;
+}
+
+.card__list::-webkit-scrollbar  {
+  display: none;
+}
+
+    .best_selling p {
+        position: absolute;
+        width: 190px;
+        height: 24px;
+        left: 16px;
+        top: 703px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        }
+          
+        
+        .show_more {
+        position: absolute;
+        width: 164px;
+        height: 23px;
+        left: 118px;
+        top: 1073px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333;
+        background:none;
+        }
+        
+        .show_more img {
+            margin-left: 17.5px;
+        }
+
+.card_new_product {
+  position: absolute;
+  left: 16px;
+  top: 1171px;
+}
+
+.products_list{
+  display: flex;
+  flex-direction: row;
+  border: none;
+  width: 360px;
+  height: 310px;
+  /* Включаем отображение полос прокрутки по горизонтали
+  и по вертикали */
+  overflow-x: auto;
+  padding: 0px;
+}
+
+.products_list::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.products_cards {
+  min-width: 260px;
+  margin: 1px;
+}
+
+
+
+.cards {
+  height: 299px;
+  width: 191px;
+  border-radius: 4px;
+}
+
+.card__image  {
+  height: 142px;
+border-radius: 0px;
+
+}
+
+        .new_products p {
+          position: absolute;
+          width: 160px;
+          height: 24px;
+          left: 16px;
+          top: 1123px;
+          font-family: 'Euclid Circular A';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #333333;
+        }
+
+     
+
+        .show_more_np {
+          position: absolute;
+        width: 164px;
+        height: 23px;
+        left: 118px;
+        top: 1483px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333;
+        background:none;
+        } 
+        
+        .show_more_np  img {
+          margin-left: 17.5px;
+      }
+
+      .jumbotron {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 328px;
+        left: 16px;
+        top: 1551px;
+        border-radius: 8px;
+        gap: 24px;
+      }
+
+
+.card_new_accessories {
+  height: 284px;
+left: 16px;
+top: 1981px;
+border-radius: 4px;
+
+}
+
+      .new_accessories p {
+        position: absolute;
+        top: 1933px;
+        width: 191px;
+        height: 24px;
+        left: 16px;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+      }
+
+
+      .show_more_na {
+        height: 16px;
+        width: 162px;
+        left: 118px;
+        top: 2293px;
+        position: absolute;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #333333;
+        background:none;
+      }
+
+      .show_more_na  img {
+        margin-left: 17.5px;
+    }
+
+    .productsJumbotron {
+      position: absolute;
+      top: 2355px;
+      left:0px;
+    }
+
+    .telefon {
+      background-image: url('../images/telefon/Gradient telefon.png');
+      background-repeat:no-repeat;
+      position: absolute;
+      width: 328.55px;
+      left: 15.45px;
+      height: 400px;
+      background-color: #E4E9F2;
+      border-radius: 4.43243px;
+
+    }
+
+    .telefon h3 {
+      position: absolute;
+      width: 46.54px;
+      height: 17.73px;
+      left: 22.16px;
+      top: 22.16px;
+      font-family: 'Euclid Circular A';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13.2973px;
+      line-height: 18px;
+      color: #303030;
+    }
+
+    .telefon p {
+      position: absolute;
+      width: 78.15px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 43.02px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .telefon a {
+      position: absolute;
+      width: 100.92px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 62.35px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .telefon a img {
+      margin-left: 10px;
+    }
+
+    .mobile {
+      position: absolute;
+      width: 328px;
+      height: 246px;
+      top:156px;
+      border-radius: 0px 0px 4.43243px 0px;
+    } 
+
+    .smart_watch {
+        background-image: url('../images/watch/Gradient_watch.png');
+        position: absolute;
+        width: 328px;
+        height: 197.24px;
+        left: 16px;
+        top: 418px;
+        background-color: #F2F2F2;
+        border-radius: 4.43243px;
+    }
+
+    .smart_watch h3 {
+      position: absolute;
+      width: 146.54px;
+      height: 17.73px;
+      left: 22.16px;
+      top: 22.16px;
+      font-family: 'Euclid Circular A';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13.2973px;
+      line-height: 18px;
+      color: #303030;
+    }
+
+    .smart_watch p {
+      position: absolute;
+      width: 78.15px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 43.02px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .smart_watch a {
+      position: absolute;
+      width: 100.92px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 62.35px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .smart_watch a img {
+      margin-left: 10px;
+    }
+
+    .watch {
+      position: absolute;
+      left: 172.31px;
+      border-radius: 4.43243px;
+      top: 47.09px;
+      right: 13.85px;
+      width: 141.84px;
+      height: 149.76px;
+    }
+
+    .aksesuar {
+      position: absolute;
+      width: 328px;
+      height: 197.24px;
+      left: 16px;
+      top: 632px;
+      background: #F2F2F2;
+      border-radius: 4.43243px;
+    }
+
+    .aksesuar h3 {
+      position: absolute;
+      width: 146.54px;
+      height: 17.73px;
+      left: 22.16px;
+      top: 22.16px;
+      font-family: 'Euclid Circular A';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13.2973px;
+      line-height: 18px;
+      color: #303030;
+    }
+
+    .aksesuar p {
+      position: absolute;
+      width: 78.15px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 43.02px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #303030;
+    }
+
+    .aksesuar a {
+      position: absolute;
+      width: 100.92px;
+      height: 13.3px;
+      left: 22.16px;
+      top: 62.35px;
+      font-family: 'Euclid Circular A Light';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 8.86487px;
+      line-height: 13px;
+      color: #3366FF;
+    }
+
+    .aksesuar a img {     
+      margin-left: 10px;
+    }
+
+    .aksesuar_group {
+      position: absolute;
+      width:184.5px;
+      height:157.82px;
+      left: 131.31px;
+      top: 41.55px;
+      border-radius: 4.43243px;
+    }
+
+    .features > img:first-of-type {
+      position: absolute;
+      width: 328px;
+      height: 698.4px;
+      left: 16px;
+      top: 3263px;
+      display: flex;
+    }
+
+    .features > img:nth-of-type(2n) {
+      display: none;
+    }
+
+    
+
+
+
+  }

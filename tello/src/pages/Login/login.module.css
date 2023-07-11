@@ -1,0 +1,122 @@
+
+.login_container {
+    display: grid;
+    grid-template-columns:200px 200px;
+    gap: 15em;
+    position: absolute;
+    top: 285px;
+    left: 335px;
+}
+
+.register_area p {
+    width: 420px;
+    font-family: 'Euclid Circular A';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.form_area form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.form_area input {
+    margin: 2px;
+}
+
+.form_area p {
+font-family: 'Euclid Circular A';
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+margin-left: 69px;
+width: 242px;
+}
+
+.form_area button {
+    width: 312px;
+    height: 48px;
+    top: 631px;
+    left: 215px;
+    border-radius: 8px;
+    color: white;
+    background: #2DD06E;
+    font-family: 'Euclid Circular A';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.form_area input {
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+    background: #F2F2F2;
+}
+
+.form_area h3 {
+    text-align: center;
+    margin-left: 4.5em;
+    margin-bottom: 1em;
+}
+
+.media_area {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+
+.media_area p {
+    font-family: 'DM Sans';
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+padding-right: 10em;
+color: #BDBDBD;
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .login_container {
+        display: grid;
+        grid-template-columns:300px;
+        gap: 2em;
+        position: absolute;
+        top: 185px;
+        left: 15px;
+    }
+
+    .form_area h3 {
+        display: none;
+    }
+
+    .register_area p {
+        width: 320px;
+        font-family: 'Euclid Circular A';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .register_area img {
+        display: none;
+    }
+}

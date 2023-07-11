@@ -1,0 +1,153 @@
+
+.cart_container {
+    position: absolute;
+    top: 210px;
+    display: grid;
+    grid-template-columns: 94%;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    gap: 2em;
+    width: 100%;
+    height: auto;
+}
+
+h5 {
+    position: absolute;
+    top:-59px;
+    left: 160px;
+    color:#BDBDBD;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: 3em 18em 5em 6em 2em;
+    align-items: center;
+    justify-items: center;
+    align-content:center;
+    gap: 2em;
+}
+
+.itemImg {
+    width: 50px;
+    height: 62px;
+}
+
+.cart_empty {
+    background-color: rgb(245, 248, 251);
+    width: 100%;
+    height: auto;
+}
+
+.start_shopping {
+    width: 1214px;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    gap:1em;
+}
+
+.start_shopping p {
+font-family: 'Euclid Circular A';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #BDBDBD;
+padding: 1em;
+margin-bottom: 2em;
+}
+
+.start_shopping img {
+    width: 100px;
+    height: 100px;
+}
+
+.start_shopping span {
+    width: 280px;
+height: 48px;
+border-radius: 8px;
+background: #2DD06E;
+color: white;
+font-family: 'Euclid Circular A';
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+padding: 1em 3em 1em 3em;
+margin-left: 1em;
+}
+
+.cart_quantity {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.cart_counter {
+    text-align: center;
+    padding: 15px 2px 10px;
+}
+
+.remove {
+    padding-top: 15px;
+}
+
+.subtotal {
+    position: relative;
+    display: grid;
+    grid-template-columns: 280px;
+    width: 280px;
+height: 309px;
+border-radius: 16px;
+top: 204px;
+left: 1011px;
+}
+
+.subtotal > hr {
+    position: absolute;
+    top: 255px;
+    width: 232px;
+    height: 1px;
+    background-color: #000;
+}
+
+@media screen and (max-width: 360px) {
+
+
+    .cart-container {
+        position: absolute;
+        display: block;
+    }
+
+     h5 {
+        position: absolute;
+        left: 25px;
+    }
+    
+    .start_shopping {
+        border-radius: 8px;
+    width: 100%; 
+    }
+
+    .itemImg {
+        width: 143px;
+        height: 173px;
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .subtotal {
+        display: none;
+    }
+}

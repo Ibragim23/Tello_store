@@ -1,0 +1,424 @@
+
+
+
+  
+.main {
+    position: absolute;
+    width: 100%;
+    height: 411px;
+    left: 0px;
+    top: 4158px;
+    background: #262626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .tello {
+        position: absolute;
+        width: 43.5px;
+        height: 48px;
+        left: 75px;
+        top: 46px;
+    }
+    
+    .media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 33.67px;
+        position: absolute;
+        top: 120px;
+        left: 75px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        gap: 16px;
+        position: absolute;
+        top: 56px;
+        left: 386px;
+        text-align: center;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    
+    .menu h6 {
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+    
+    .menu a {
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        opacity: 0.8; 
+    }
+    
+    .help {
+        position: absolute;
+        top: 56px;
+        left: 699px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        gap: 16px;
+    }
+    
+    .help h6 {
+    width: 66px;
+    height: 24px;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    }
+    
+    .help a {
+        font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    }
+    
+    .contact {
+        display: grid;
+        gap: 24px 20px;
+        position: absolute;
+        left: 1011px;
+        top: 56px;
+    }
+    
+    .contact h6 {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+    }
+    
+    .contact > a:first-of-type {
+    
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2DD06E;
+        opacity: 0.8;
+        width: 241px;
+        height: 48px;
+        display: flex;
+    align-items: center;
+    }
+    
+    .contact a {
+        color: #FFFFFF;
+        font-family: 'Euclid Circular A Light';
+        margin-left: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        opacity: 0.8;
+    }
+    
+    .contact img {
+        width: 20px;
+        height: 16px;
+        background: #303030;
+        margin-right: 20px;
+        position: absolute;
+        left:0px;
+    }
+    
+    .conditions {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 24px;
+        right: 38px;
+    }
+    
+    
+    .law {
+        position: absolute;
+        bottom: 26.5px;
+        left: 111.2px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        gap: 12.5px;
+        height: 20px;
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+
+
+
+@media screen and (max-width:360px) {
+    
+.main {
+position: absolute;
+width: 360px;
+height: 933px;
+left: 0px;
+top: 4034px;
+background: #303030;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.tello {
+    position: absolute;
+    width: 43.5px;
+    height: 48px;
+    left: 97px;
+    top: 46px;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33.67px;
+    position: absolute;
+    top: 115.83px;
+    left: 96.91px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 8px;
+    position: absolute;
+    top: 180px;
+    left: 34%;
+    text-align: center;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu h6 {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.menu a {
+    font-family: 'Euclid Circular A Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.8;   
+}
+
+.help {
+    position: absolute;
+    top: 396px;
+    left: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 8px;
+}
+
+.help h6 {
+width: 66px;
+height: 24px;
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+
+.help a {
+    font-family: 'Euclid Circular A Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+.contact {
+    display: grid;
+    gap: 24px 20px;
+    position: absolute;
+    left: 41px;
+    top: 580px;
+}
+
+.contact h6 {
+font-family: 'Euclid Circular A';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+justify-content: center;
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+
+.contact > a:first-of-type {
+
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2DD06E;
+    opacity: 0.8;
+    width: 241px;
+    height: 48px;
+    display: flex;
+align-items: center;
+}
+
+.contact a {
+    color: #FFFFFF;
+    font-family: 'Euclid Circular A Light';
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.contact img {
+    width: 20px;
+    height: 16px;
+    background: #303030;
+    margin-right: 20px;
+    position: absolute;
+    left:0px;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    position: absolute;
+    top: 760px;
+    left: 44px;
+}
+
+.hr {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+
+.law {
+    position: absolute;
+    top: 889px;
+    left: 18.5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 12.5px;
+    height: 20px;
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+}
